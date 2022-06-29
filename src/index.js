@@ -6,6 +6,10 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-    <App />
+  <div>
+    <App  soortnaam="Eekhoorn"/>
+    <App  soortnaam="Neushoorn"/>
+    <App  soortnaam="Cavia"/>
+  </div>
 );
 
