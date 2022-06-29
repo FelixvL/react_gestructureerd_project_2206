@@ -5,24 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const naam = 'Felix';
+const element = <h1>Hello, {naam}</h1>;
+root.render(element);
 
-function verwerkInfo(mijnobject) {
-  return `${mijnobject.hoogte} bij ${mijnobject.breedte} ${mijnobject.eenheid}`;
-}
-
-const verzinmaar = {
-  hoogte: 10,
-  breedte: 15,
-  eenheid: 'meter'
-};
-
-
-
-root.render(
-  <h1>
-  Info: {verwerkInfo(verzinmaar)}!
-</h1>
-);
 // root.render(
 //   <React.StrictMode>
 //     <App />
