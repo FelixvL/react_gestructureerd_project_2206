@@ -21,7 +21,7 @@ class Opteller extends Component {
     clearInterval(this.optelInterval);
   }
   eenErbij() {
-    console.log(this.state.getal);
+    //console.log(this.state.getal);
     this.setState({    
       getal: (this.state.getal + this.props.spronggetal)
     });
