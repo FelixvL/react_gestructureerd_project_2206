@@ -1,12 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      Gaan
+class App extends Component {
+  render() {
+    return <div className="App">
+      Dit staat in de App Component!
     </div>
-  );
+  }
 }
 
 export default App;
